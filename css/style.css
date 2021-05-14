@@ -206,6 +206,13 @@ h6 {
   margin-top: 60px;
 }
 
+#header .demo-btn {
+  text-align: justify;
+  padding-top: 1px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -1474,7 +1481,13 @@ h6 {
   #trailer .testimonial-item p {
     width: 80%;
   }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 20%;
+  }
 }
+
 
 @media (max-width: 991px) {
   #topbar {
