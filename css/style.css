@@ -944,6 +944,12 @@ h6 {
   background-color: #1bb1dc;
 }
 
+#trailer .trailer_video {
+  margin:auto;
+  width: 70%;
+  display: block;
+}
+
 /* Team Section
 --------------------------------*/
 
