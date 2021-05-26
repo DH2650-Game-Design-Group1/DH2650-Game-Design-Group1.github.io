@@ -50,7 +50,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  /*background: #1bb1dc;*/
+  background: rgba(242, 127, 162, 100);
   color: #fff;
   width: 44px;
   height: 44px;
@@ -198,8 +199,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: px 0;
+  max-height: 46px;
 }
 
 .main-pages {
@@ -284,7 +285,8 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  /*color: #413e66;*/
+  color: black;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -296,7 +298,8 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  /*color: #1bb1dc;*/
+  color: rgba(242, 127, 162, 100);
   text-decoration: none;
 }
 
