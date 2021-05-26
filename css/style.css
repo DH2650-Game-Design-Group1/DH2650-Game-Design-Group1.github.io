@@ -50,7 +50,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  /*background: #1bb1dc;*/
+  background: rgba(242, 127, 162, 100);
   color: #fff;
   width: 44px;
   height: 44px;
@@ -198,8 +199,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: px 0;
+  max-height: 46px;
 }
 
 .main-pages {
@@ -221,7 +222,8 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  /*background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;*/
+  background: #f5f8fd url("../img/spaceBGdark.png") center top no-repeat;
   background-size: cover;
 }
 
@@ -284,7 +286,8 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  /*color: #413e66;*/
+  color: rgba(242, 127, 162, 0.75);
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -296,7 +299,8 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  /*color: #1bb1dc;*/
+  color: rgba(242, 127, 162, 100);
   text-decoration: none;
 }
 
@@ -398,7 +402,8 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  /*color: #8dc2fa;*/
+  color: rgb(242, 127, 162);
   text-decoration: none;
 }
 
@@ -444,7 +449,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  color: rgb(242, 127, 162);
 }
 
 .mobile-nav-overly {
@@ -1585,4 +1590,18 @@ h6 {
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
+}
+
+.demo-btn {
+    background-color: rgb(242, 127, 162);
+    color: black;
+    margin: 2px;
+    border: none;
+}
+
+.demo-btn:hover {
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(242, 127, 162);
+    margin: 2px;
 }
